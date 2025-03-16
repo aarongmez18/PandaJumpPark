@@ -1,0 +1,17 @@
+/* Estilo para el scroll en todo el documento */
+::-webkit-scrollbar {
+    background-color: rgb(0, 0, 0);
+    width: 10px; /* Ancho del scroll */
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dc3545; /* Color blanco para el pulgar del scroll */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 1px solid black;
+
+}
+

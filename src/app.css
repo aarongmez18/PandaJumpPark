@@ -1,0 +1,24 @@
+@import url("styles/bootstrapConfig.css");
+@import url("components/waves.css");
+@import url("components/scroll.css");
+
+
+
+body{
+    background-image: url("../sources/img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; 
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
