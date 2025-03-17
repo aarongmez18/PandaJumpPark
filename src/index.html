@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="app.css" />
     <link rel="shortcut icon" href="../sources/img/Captura de pantalla 2025-03-17 164420.png" type="image/x-icon">
     <title>Panda Jump Park</title>
@@ -15,7 +16,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand mt-3 mx-md-5 animate__animated fade-down" href="#"><img src="../sources/img/logo.png" alt="Panda jump park logo" width="200px"></a>
-            <button class="navbar-toggler text-white border-white animate__animated fade-down" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler text-white border-white animate__animated fade-down  mx-5" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -223,7 +224,7 @@
 </div>
     </section>
 
-    <section class="mt-9">
+    <section class="mt-9 " id="localizacion">
                 <!-- Wave -->
                 <div class="custom-shape-divider-bottom-1742146065">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -232,25 +233,77 @@
                 </div>
 
         <!-- Google maps -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.0881737280433!2d-5.782857824227597!3d37.185353972048494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126df5121db02f%3A0x5a5d4a2d8e0f9bba!2sAv.%20General%20Giraldez%2C%2011%2C%2041710%20Utrera%2C%20Sevilla!5e0!3m2!1ses!2ses!4v1710687098765!5m2!1ses!2ses" width="100%" height="500"  style="border-top: 5px solid #212529;"  allowfullscreen=""  loading="lazy"  referrerpolicy="no-referrer-when-downgrade" title="Panda Jump Park Location"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.0881737280433!2d-5.782857824227597!3d37.185353972048494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126df5121db02f%3A0x5a5d4a2d8e0f9bba!2sAv.%20General%20Giraldez%2C%2011%2C%2041710%20Utrera%2C%20Sevilla!5e0!3m2!1ses!2ses!4v1710687098765!5m2!1ses!2ses" width="100%" height="500"  style="border-top: 15px solid #212529;"  allowfullscreen=""  loading="lazy"  referrerpolicy="no-referrer-when-downgrade" title="Panda Jump Park Location"></iframe>
 
         <div class="text-center birds">
             <h2 class="c-rojo-pastel fw-800 py-5" style="z-index: 12;">HORARIO DE APERTURA</h2>
             <p class="c-rojo-pastel fw-800" style="z-index: 12;">
                 Estamos ABIERTOS durante las horas de comida y cena.
             </p>
-            <section class="d-flex justify-content-around align-items-center flex-row text-white w-100" style="z-index: 12;">
-                <div class="d-flex justify-content-center align-items-center flex-column mx-5 container-schedule">
-                    <h6 class="c-rojo-pastel fw-800 my-2">LUNES A VIERNES</h6>
-                    <p class="text-dark fw-800">16:00 - 21:30</p>
+            <section class="d-flex flex-column flex-md-row justify-content-center align-items-center text-white w-100 gap-4 pb-5" style="z-index: 12;">
+                <div class="d-flex justify-content-center align-items-center flex-column mx-3 container-schedule">
+                    <h6 class="c-rojo-pastel fw-800 my-2 text-center">LUNES A VIERNES</h6>
+                    <p class="text-dark fw-800 text-center">16:00 - 21:30</p>
                 </div>
-                <div class="d-flex justify-content-center align-items-center flex-column mx-5 container-schedule">
-                    <h6 class="c-rojo-pastel fw-800 my-2">SÁBADOS, DOMINGOS Y FESTIVOS</h6>
-                    <p class="text-dark fw-800">12:00 - 21:30</p>
+                <div class="d-flex justify-content-center align-items-center flex-column mx-3 container-schedule">
+                    <h6 class="c-rojo-pastel fw-800 my-2 text-center">SÁBADOS, DOMINGOS Y FESTIVOS</h6>
+                    <p class="text-dark fw-800 text-center">12:00 - 21:30</p>
                 </div>
-            </section>
+            </section>            
         </div>    
     </section>
+    <footer class="bg-dark text-white py-4" id="contacto">
+        <div class="container text-center">
+            <!-- Logo pequeño -->
+            <div class="mb-3">
+                <img src="../sources/img/logo.png" alt="Logo" style="width: 180px;">
+            </div>
+    
+            <hr class="border-secondary">
+    
+            <div class="row">
+                <!-- WhatsApp -->
+                <div class="col-md-3 mb-3">
+                    <i class="fab fa-whatsapp fs-5"></i>
+                    <a href="https://wa.me/667894102" class="text-white text-decoration-none ms-2">
+                        667 894 102
+                    </a>
+                </div>
+    
+                <!-- Teléfono -->
+                <div class="col-md-3 mb-3">
+                    <i class="fas fa-phone-alt fs-5"></i>
+                    <a href="tel:955461495" class="text-white text-decoration-none ms-2">
+                        955 461 495
+                    </a>
+                </div>
+    
+                <!-- Ubicación -->
+                <div class="col-md-3 mb-3">
+                    <i class="fas fa-map-marker-alt fs-5"></i>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Avenida+General+Giraldez+9-11+Utrera" 
+                       class="text-white text-decoration-none ms-2">
+                        Av. General Giráldez 9-11, Utrera
+                    </a>
+                </div>
+    
+                <!-- Instagram -->
+                <div class="col-md-3 mb-3">
+                    <i class="fab fa-instagram fs-5"></i>
+                    <a href="https://www.instagram.com/pandajumppark" class="text-white text-decoration-none ms-2" target="_blank">
+                        @pandajumppark
+                    </a>
+                </div>
+            </div>
+    
+            <hr class="border-secondary">
+    
+            <!-- Copyright -->
+            <p class="text-secondary small mb-0">© 2024 Panda Jump Park. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    
 
 </body>
 
