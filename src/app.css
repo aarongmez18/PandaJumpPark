@@ -1,6 +1,7 @@
 @import url("styles/bootstrapConfig.css");
 @import url("components/waves.css");
 @import url("components/scroll.css");
+@import url("components/cards.css");
 @import url("components/gridContainers.css");
 
 
@@ -23,4 +24,53 @@ body::after {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
+}
+
+.c-pastel{
+    color: #F9E79F;
+}
+
+.c-rosa-pastel{
+    color: #FAD0C9;
+}
+
+.c-rojo-pastel{
+    color:#F7A1A1;
+    text-shadow: 1px 1px 0 #000, 0 1px 0 #000, -1px -1px 0 #000, 0 -1px 0 #000;
+    font-size: 36px; 
+    font-weight: 800; 
+}
+.c-rojo-pastel-2{
+    color:#F7A1A1;
+    text-shadow: 1px 1px 0 #000, 0 1px 0 #000, -1px -1px 0 #000, 0 -1px 0 #000;
+    font-size: 16px; 
+    font-weight: 600;
+    margin-top:15px;
+}
+
+.fw-800{
+    font-weight:800;
+}
+
+@media (max-width: 768px) {
+    .c-rojo-pastel {
+        font-size: 20px; 
+        font-weight: 600;
+    }
+}
+
+.pastel{
+    background-color: #F9E79F;
+  }
+
+.rosa-pastel{
+    background-color: #FAD0C9;
+}
+
+.mt-9{
+    margin-top:300px;
+}
+
+.bg-dark-blue{
+    background-color: #212529;
 }

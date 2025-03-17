@@ -20,25 +20,24 @@
 
 /* Wave 2 */
 
-.custom-shape-divider-top-1742159915 {
-    position: block;
-    top: 0;
-    left: 0;
+.custom-shape-divider-top-1742170967 {
+    position: absolute;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
+   
 }
 
-.custom-shape-divider-top-1742159915 svg {
+.custom-shape-divider-top-1742170967 svg {
     position: relative;
     display: block;
-    width: calc(134% + 1.3px);
-    height: 245px;
+    width: calc(123% + 1.3px);
+    height: 258px;
     transform: rotateY(180deg);
 }
 
+
 /* Color 1 y 2 */
-.custom-shape-divider-bottom-1742146065 .shape-fill, .custom-shape-divider-top-1742159915 .shape-fill {
+.custom-shape-divider-bottom-1742146065 .shape-fill, .custom-shape-divider-top-1742170967 .shape-fill {
     fill: #212529;
 }

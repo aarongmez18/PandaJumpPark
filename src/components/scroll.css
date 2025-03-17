@@ -9,7 +9,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #ffc107; /* Color blanco para el pulgar del scroll */
+    background-color: #F9E79F; /* Color blanco para el pulgar del scroll */
     border-radius: 10px; /* Bordes redondeados */
     border: 1px solid black;
 
