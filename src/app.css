@@ -74,3 +74,41 @@ body::after {
 .bg-dark-blue{
     background-color: #212529;
 }
+
+.container-schedule{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #F9E79F;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.birds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    background-color: white;
+    color: black ;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 400ms;
+    padding: 20px;
+    position: relative; /* Para que el ::after se mantenga dentro */
+
+}
+
+.birds::after {
+    content: "";
+    position: absolute; /* Cambiado de fixed a absolute */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../sources/img/birds.png");
+    background-size: cover;
+    background-position: center;
+}
